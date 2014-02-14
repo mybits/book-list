@@ -10,3 +10,12 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'thin'
 
+group :development do
+  gem 'pry-rails'
+  gem 'pry-remote'
+  gem 'pry-debugger'
+  gem 'coolline'
+  gem 'awesome_print'
+  gem 'better_errors'
+end
+
