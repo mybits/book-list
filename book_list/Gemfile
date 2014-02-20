@@ -8,6 +8,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
 gem 'thin'
+gem 'mongoid'
 
 group :development do
   gem 'pry-rails'
@@ -21,4 +22,5 @@ end
 group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
+  gem 'mongoid-rspec'
 end
