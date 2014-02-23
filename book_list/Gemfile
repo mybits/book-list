@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
 gem 'thin'
 gem 'mongoid'
+gem 'devise'
 
 group :development do
   gem 'pry-rails'
